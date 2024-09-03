@@ -1,4 +1,4 @@
-# Names: Bernardo Haba, Érico Panazzolo, Henrique Brauveres e Luana Thomas.
+# Names: Bernardo Habb, Érico Panazzolo, Henrique Brauveres e Luana Thomas.
 
 import matplotlib.pyplot as plt
 

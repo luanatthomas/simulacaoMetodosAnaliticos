@@ -1,4 +1,5 @@
 import random
+# Names: Bernardo Habb, Érico Panazzolo, Henrique Brauveres e Luana Thomas.
 
 # Inicialização dos parâmetros do gerador
 seed = 379
@@ -23,8 +24,8 @@ def simular_fila(servidores, capacidade_maxima, n, chegada_min, chegada_max, ate
 
     for _ in range(n):
         numero_aleatorio = nextRandom()
-        tempo_chegada = chegada_min + (chegada_max - chegada_min) * nextRandom()  # Utilizando nextRandom() para tempos de chegada
-        tempo_atendimento = atendimento_min + (atendimento_max - atendimento_min) * nextRandom()  # Utilizando nextRandom() para tempos de atendimento
+        tempo_chegada = chegada_min + (chegada_max - chegada_min) * numero_aleatorio
+        tempo_atendimento = atendimento_min + (atendimento_max - atendimento_min) * numero_aleatorio
 
         if numero_aleatorio < 0.5:  # Evento de chegada
             if estado_fila < capacidade_maxima:
